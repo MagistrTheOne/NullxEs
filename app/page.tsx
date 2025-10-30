@@ -47,6 +47,17 @@ export default function Home() {
           Launch 2026
         </p>
 
+        {/* Yandex Rating Badge */}
+        <div className="mt-6 flex justify-center">
+          <iframe
+            src="https://yandex.ru/sprav/widget/rating-badge/145129881765?type=rating&theme=dark"
+            width={150}
+            height={50}
+            frameBorder={0}
+            title="Yandex Rating Badge"
+          />
+        </div>
+
         {/* Footer Credits */}
         <footer className="mt-16 text-sm text-white/50">@MagistrTheOne</footer>
       </main>
